@@ -1,0 +1,30 @@
+{
+  "name": "chrome-devtools",
+  "version": "1.11.0",
+  "description": "Google's Chrome DevTools MCP server with official skills for browser automation, debugging and performance analysis.",
+  "description_i18n": {
+    "en": "Google's Chrome DevTools MCP server with official skills for browser automation, debugging and performance analysis.",
+    "zh-CN": "Google 官方 Chrome DevTools MCP 服务及配套技能：浏览器自动化、调试与性能分析。"
+  },
+  "author": {
+    "name": "Google LLC (chrome-devtools-mcp); packaged by zisu"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "skills": "skills",
+  "mcpServers": {
+    "chrome-devtools": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@1.11.0",
+        "--autoConnect"
+      ],
+      "env": {
+        "npm_config_update_notifier": "false"
+      },
+      "timeoutMs": 120000
+    }
+  }
+}

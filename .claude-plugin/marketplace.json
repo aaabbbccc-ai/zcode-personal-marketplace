@@ -1,0 +1,38 @@
+{
+  "name": "zisu-personal",
+  "description": "zisu 的 ZCode 个人插件市场：收录常用插件，登录任意电脑后添加本仓库即可安装。",
+  "description_i18n": {
+    "en": "zisu's personal ZCode plugin marketplace for frequently used plugins.",
+    "zh-CN": "zisu 的 ZCode 个人插件市场：收录常用插件，登录任意电脑后添加本仓库即可安装。"
+  },
+  "owner": {
+    "name": "zisu"
+  },
+  "plugins": [
+    {
+      "name": "chrome-devtools",
+      "source": "./plugins/chrome-devtools",
+      "version": "1.11.0",
+      "displayName": "Chrome DevTools",
+      "displayName_i18n": {
+        "en": "Chrome DevTools",
+        "zh-CN": "Chrome 开发者工具"
+      },
+      "description": "Google's Chrome DevTools MCP server plus its official skills: drive and debug a live Chrome, inspect network and console, record performance traces, run Lighthouse and analyze memory.",
+      "description_i18n": {
+        "en": "Google's Chrome DevTools MCP server plus its official skills: drive and debug a live Chrome, inspect network and console, record performance traces, run Lighthouse and analyze memory.",
+        "zh-CN": "Google 官方 Chrome DevTools MCP 服务及配套技能：直接控制并调试真实 Chrome，检查网络与控制台，录制性能 trace，运行 Lighthouse 与内存分析。"
+      },
+      "category": "developer-tools",
+      "keywords": [
+        "chrome",
+        "devtools",
+        "mcp",
+        "browser",
+        "automation",
+        "debugging",
+        "performance"
+      ]
+    }
+  ]
+}
