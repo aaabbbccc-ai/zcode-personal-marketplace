@@ -1,14 +1,14 @@
 # ZCode 个人插件市场
 
-个人常用的 ZCode 插件集合。在任意一台电脑上把本仓库添加为插件市场，就能安装这里收录的插件。
+个人常用的 ZCode 插件集合。在任意一台电脑上把本仓库添加为插件市场，就能安装这里收录的插件。仓库是公开的，只包含插件清单和 Apache-2.0 技能文档，不含账号、Cookie 或密钥。
 
 ## 在另一台电脑上使用
 
 ZCode Desktop：
 
-1. 打开 **设置 → 插件管理 → 发现**（Plugin Marketplace）。
+1. 打开 **设置 → 插件 → 发现**（Plugin Marketplace）。
 2. 点右上角 **+ → 添加插件市场**。
-3. 填入 `aaabbbccc-ai/zcode-personal-marketplace`（私有仓库，需要该机器已登录有权限的 GitHub 账号）。
+3. 填入 `aaabbbccc-ai/zcode-personal-marketplace`（公开仓库，新机器无需登录 GitHub）。
 4. 在 **Personal → zisu-personal** 下找到需要的插件，点 **安装**。
 
 ZCode CLI：
