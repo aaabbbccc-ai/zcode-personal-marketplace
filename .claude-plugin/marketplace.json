@@ -1,9 +1,9 @@
 {
   "name": "zisu-personal",
-  "description": "zisu 的 ZCode 个人插件市场：收录常用插件，登录任意电脑后添加本仓库即可安装。",
+  "description": "zisu 的 ZCode 个人插件市场：收录常用插件，换电脑后添加本仓库即可安装，无需登录 GitHub。",
   "description_i18n": {
-    "en": "zisu's personal ZCode plugin marketplace for frequently used plugins.",
-    "zh-CN": "zisu 的 ZCode 个人插件市场：收录常用插件，登录任意电脑后添加本仓库即可安装。"
+    "en": "zisu's personal ZCode plugin marketplace for frequently used plugins. Add this public repo on any machine; no GitHub login required.",
+    "zh-CN": "zisu 的 ZCode 个人插件市场：收录常用插件，换电脑后添加本仓库即可安装，无需登录 GitHub。"
   },
   "owner": {
     "name": "zisu"
